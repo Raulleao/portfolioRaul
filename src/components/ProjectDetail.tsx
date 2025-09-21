@@ -193,7 +193,7 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
                       </div>
 
                       <div>
-                        <h3 className="font-semibold text-lg mb-3">Contexto de Mercado</h3>
+                        {/* <h3 className="font-semibold text-lg mb-3">Contexto de Mercado</h3> */}
                         <p className="text-muted-foreground leading-relaxed">{project.context.market}</p>
                       </div>
 
@@ -235,9 +235,9 @@ export function ProjectDetail({ projectId, onBack }: ProjectDetailProps) {
                             <Card key={index} className="border-l-4 border-l-destructive">
                               <CardContent className="p-6">
                                 <h4 className="font-semibold mb-2">{point.title}</h4>
-                                <p className="text-muted-foreground mb-4">{point.description}</p>
+                                <p className="text-muted-foreground">{point.description}</p>
                                 <div className="bg-secondary/20 p-3 rounded-lg">
-                                  <div className="font-medium text-sm text-destructive">Impacto:</div>
+                                  {/* <div className="font-medium text-sm text-destructive">Impacto:</div> */}
                                   <div className="text-sm text-muted-foreground">{point.impact}</div>
                                 </div>
                               </CardContent>

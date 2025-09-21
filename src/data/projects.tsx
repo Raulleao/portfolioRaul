@@ -29,8 +29,7 @@ export const projects: Project[] = [
     subtitle: "Interface completa para aplicativo financeiro pessoal",
     description:
       "Aplicativo móvel moderno para os serviços digitais do Detran-MS, atendendo toda a população de Mato Grosso do Sul, com mais de 300 mil acessos.",
-    image:
-      "/src/components/img/amd.png",
+    image: "/src/components/img/amd.png",
     category: "Mobile App",
     year: "2025",
     duration: "1 ano",
@@ -38,72 +37,64 @@ export const projects: Project[] = [
     role: "Product Designer",
     client: "FinTech Innovations",
     overview:
-      "Desenvolvimento de uma interface completa para aplicativo de gestão financeira pessoal, focando em simplicidade, acessibilidade e experiência intuitiva para usuários de diferentes perfis financeiros.",
+      "Aplicativo móvel moderno para o Detran-MS, desenvolvido para oferecer serviços digitais a toda a população de Mato Grosso do Sul. O app inclui funcionalidades como consultas veiculares, serviços relacionados à CNH (Carteira Nacional de Habilitação) e emissão de documentos digitais.",
     context: {
       background:
-        "Com o crescimento do mercado de fintechs no Brasil, a empresa identificou uma oportunidade de criar um aplicativo que simplificasse a gestão financeira pessoal. O mercado mostrava que usuários enfrentavam dificuldades para organizar suas finanças devido à complexidade das ferramentas existentes.",
-      market:
-        "Pesquisas indicaram que 67% dos brasileiros não controlam adequadamente suas finanças pessoais, principalmente devido à falta de ferramentas intuitivas e acessíveis.",
+        "Com a modernização das aplicações digitais, tornou-se necessária a construção do APP 2.0 do Detran-MS. O aplicativo anterior, além de instável, apresentava fluxos longos e complexos, o que levava muitos usuários a desistirem no meio do processo. Esse cenário também gerava uma alta demanda por suporte, já que os cidadãos não conseguiam utilizar plenamente os serviços disponíveis.",
+      // market:
+      //   "Pesquisas indicaram que 67% dos brasileiros não controlam adequadamente suas finanças pessoais, principalmente devido à falta de ferramentas intuitivas e acessíveis.",
       businessGoals: [
-        "Capturar 15% do mercado de apps financeiros em 12 meses",
         "Atingir 100k usuários ativos no primeiro ano",
         "Reduzir custos de suporte através de interface intuitiva",
-        "Estabelecer base para produtos financeiros complementares",
+        "Implementar pelo menos 50% dos serviços nos 2 primeiros anos",
       ],
     },
     problem: {
       userPain:
-        "Usuários enfrentavam dificuldades significativas para gerenciar suas finanças pessoais devido à complexidade das ferramentas disponíveis no mercado.",
+        "Os usuários enfrentavam grandes dificuldades para utilizar o aplicativo, o que resultava em um alto volume de chamados de suporte e em um número expressivo de atendimentos presenciais nas agências, sobrecarregando o sistema. Em resumo, o aplicativo não atendia às expectativas dos usuários.",
       painPoints: [
         {
           title: "Interface Complexa",
           description:
-            "Apps existentes tinham interfaces confusas com muitas funcionalidades expostas simultaneamente",
-          impact: "85% dos usuários abandonavam o app nas primeiras 3 sessões",
+            "Os aplicativos existentes apresentavam interfaces confusas, com excesso de funcionalidades expostas ao mesmo tempo. Essa complexidade fazia com que os usuários abandonassem o aplicativo",
+          // impact: "85% dos usuários abandonavam o app nas primeiras 3 sessões",
         },
         {
-          title: "Falta de Insights Claros",
+          title: "Falta de Clareza nos Serviços",
           description:
-            "Dados financeiros apresentados sem contexto ou recomendações acionáveis",
-          impact:
-            "Usuários não conseguiam tomar decisões informadas sobre suas finanças",
+            "A falta de hierarquia e orientação nos serviços dificultava a navegação, levando muitos cidadãos a recorrer ao suporte ou ao atendimento presencial.",
+          // impact:
+          //   "Usuários não conseguiam tomar decisões informadas sobre suas finanças",
         },
         {
           title: "Processo de Setup Longo",
           description:
             "Onboarding complexo que exigia muito tempo e informações do usuário",
-          impact: "60% dos downloads não completavam o cadastro inicial",
-        },
-        {
-          title: "Baixa Confiança",
-          description:
-            "Usuários hesitavam em conectar suas contas bancárias devido a preocupações de segurança",
-          impact:
-            "Apenas 20% dos usuários utilizavam funcionalidades de sincronização",
+          // impact: "60% dos downloads não completavam o cadastro inicial",
         },
       ],
     },
     personas: [
       {
-        name: "Maria SilvaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-        age: 32,
-        profession: "Professora",
+        name: "João de Souza",
+        age: 34,
+        profession: "Motorista de aplicativo",
         image:
           "https://images.unsplash.com/photo-1565194637906-8f45f3351a5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1c2VyJTIwcGVyc29uYSUyMGlsbHVzdHJhdGlvbnxlbnwxfHx8fDE3NTgyMjMxMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        bio: "Mãe de dois filhos que quer organizar as finanças familiares mas tem pouco tempo para aprender ferramentas complexas.",
+        bio: "Pai de dois filhos que trabalhar como motorista de aplicativo para sustentar a família",
         goals: [
-          "Controlar gastos mensais da família",
-          "Criar reserva de emergência",
-          "Planejar férias e educação dos filhos",
+          "Renovar a CNH sem precisar ir à agência",
+          "Consultar pontos na carteira de forma rápida",
+          "Manter-se regularizado para trabalhar diariamente",
         ],
         frustrations: [
-          "Apps muito complicados",
-          "Falta de tempo para configurações",
-          "Medo de compartilhar dados bancários",
+          "Fluxo de renovação complexo, com muitas etapas",
+          "O app trava ou desconecta durante o processo",
+          "Precisa recorrer ao atendimento presencial, perdendo tempo de trabalho",
         ],
         techLevel: "Intermediário",
-        quote:
-          "Preciso de algo simples que me ajude a ver onde está indo meu dinheiro",
+        // quote:
+        //   "Preciso de algo simples que me ajude a ver onde está indo meu dinheiro",
       },
       {
         name: "João Santos",
@@ -188,15 +179,8 @@ export const projects: Project[] = [
           "https://images.unsplash.com/photo-1586863065451-6a82fa7e81b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1c2VyJTIwam91cm5leSUyMG1hcHxlbnwxfHx8fDE3NTgyMjMxMjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       },
     },
-    impact: [
-      "+20 mil downloads",
-    ],
-    technologies: [
-      "Design System",
-      "Research",
-      "Figma",
-      "Prototipação",
-    ],
+    impact: ["+20 mil downloads"],
+    technologies: ["Design System", "Research", "Figma", "Prototipação"],
     process: [
       {
         phase: "1. Research & Discovery",
@@ -297,19 +281,6 @@ export const projects: Project[] = [
       },
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     id: "dashboard-analytics",
